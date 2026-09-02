@@ -1,0 +1,44 @@
+body{
+    background-color: #D5EAF8;
+}
+
+/* Some overrides.  My minimal knowledge of css came in clutch*/
+.navbar{
+    background-color: #3B95D9;
+}
+.navbar-brand, .nav-link{
+    color: #ffffff;
+}
+.my-carousel-overrides{
+    max-width: 75%;
+    padding-top: 70px;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit I love Mozilla */
+.custom-image-style{
+    float: none;
+    width: 1920px;
+    height: 480px;
+    object-fit: cover;
+}
+.grid-image{
+    border-radius: 20px;
+    float: none;
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+    
+}
+/* for grid. TESTING */
+.my-container{
+    border-radius: 20px;
+    max-width: 80%;
+    background-color: bisque;
+}
+/*
+.my-container img{
+    display: block;
+    max-width: 50%;
+    height: 50px;
+}
+*/
